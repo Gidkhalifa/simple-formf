@@ -1,0 +1,89 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.head{
+    height: auto;
+    width: auto;
+    background-color: black;
+
+}
+.head nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10px ;
+    padding-right: 10px;
+    flex-wrap: wrap;
+}
+.logo{
+    color:antiquewhite;
+    text-transform: uppercase;
+    font-weight: 800;
+    
+}
+.logo span{
+    color: red;
+}
+.head ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+.head ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+.head ul li a:hover{
+    color: red;
+    cursor: pointer;
+}
+.head button{
+    border:none;
+    padding: 12px 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.head button:hover{
+    transform: scale(1.1);
+    background-color:red;
+    cursor: pointer;
+    color: antiquewhite;
+}
+.card{
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.card div{
+    width: 350px;
+    padding: 0px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid rgb(144, 45, 45);
+    border-radius: 8px;
+    overflow: hidden;
+}
+.card div img{
+    width: 100%;
+    height: auto;
+}
+.card div:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.card h1:hover{
+    color: red;
+}
