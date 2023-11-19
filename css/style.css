@@ -87,3 +87,16 @@ body{
 .card h1:hover{
     color: red;
 }
+.vid{
+    width: 400px;
+    padding: 0px;
+    margin-top: 30px;
+    border: 1px solid black;
+    position: relative;
+    left: 10%;
+    
+}
+.vid video{
+    width: auto;
+    align-content: center;
+}
